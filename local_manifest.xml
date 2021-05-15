@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="apon"
+		fetch="https://github.com/Apon77" />
+	<remote  name="zeelog"
+         	fetch="https://github.com/zeelog" />
+	<remote  name="dicky"
+		fetch="https://github.com/Nicklas373" />
+	<remote  name="yash"
+		fetch="https://github.com/yashlearnpython" />	
+	<remote  name="alone"
+		fetch="https://github.com/Hunter-commits" />	
+ 
+ 	<project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="yash" revision="corvus-r"/>
+	<project path="kernel/xiaomi/mido" name="kernel_mido" remote="alone" revision="normal" />
+	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-18.1"/>
+	
+</manifest>
