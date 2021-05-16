@@ -13,7 +13,7 @@
 		fetch="https://github.com/Hunter-commits" />	
  
  	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="corvus-r"/>
-	<project path="kernel/xiaomi/mido" name="kernel_mido" remote="alone" revision="normal" />
+	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-18.1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-18.1"/>
 	
 </manifest>
