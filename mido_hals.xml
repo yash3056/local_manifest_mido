@@ -2,7 +2,6 @@
 <manifest>
     <remote name="ali" fetch="https://github.com/android-eleven/" />
     <remote name="anar" fetch="https://github.com/Jabiyeff/" />
-    <remote name="chintuos" fetch="https://github.com/ChintuOs-Devices/" />
     
     # HALS
     <remove-project name="android_hardware_qcom_audio" />
