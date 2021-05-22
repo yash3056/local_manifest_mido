@@ -12,10 +12,6 @@
 	<remote  name="alone"
 		fetch="https://github.com/Hunter-commits" />	
 	
- 	# cleanup first
-	#<remove-project name="device/xiaomi/mido" />
-	#<remove-project name="kernel/xiaomi/mido" />
-	#<remove-project name="vendor/xiaomi" />
  	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="wave-os"/>
 	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="yash" revision="lineage-18.1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="yash" revision="lineage-18.1"/>
