@@ -5,7 +5,7 @@
 		fetch="https://github.com/Apon77" />
 	<remote  name="zeelog"
          	fetch="https://github.com/zeelog" />
-	<remote  name="dicky"
+	<remote  name="nick"
 		fetch="https://github.com/Nicklas373" />
 	<remote  name="yash"
 		fetch="https://github.com/yashlearnpython" />	
@@ -13,7 +13,7 @@
 		fetch="https://github.com/Hunter-commits" />	
 	
  	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="wave-os" clone-depth="1" />
-	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="yash" revision="lineage-18.1" clone-depth="1" />
+	<project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="nick" revision="lineage-17.1" clone-depth="1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="yash" revision="lineage-18.1" clone-depth="1" />
 	
 </manifest>
