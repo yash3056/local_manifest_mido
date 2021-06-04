@@ -3,7 +3,7 @@
     <remote name="jennifer" fetch="https://github.com/shashank1436" />
     
     # RIL
-    <remove-project name="vendor_codeaurora_telephony" />
+    <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
     <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="jennifer" revision="r11" />
     
 </manifest>
