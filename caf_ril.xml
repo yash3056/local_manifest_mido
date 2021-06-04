@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="jennifer" fetch="https://github.com/shashank1436" />
+    
+    # RIL
+    <remove-project name="vendor_codeaurora_telephony" />
+    <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="jennifer" revision="r11" />
+    
+</manifest>
