@@ -13,7 +13,7 @@
 		fetch="https://github.com/Hunter-commits" />	
 	
  	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="Lineage-FE" clone-depth="1" />
-	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="yash" revision="wave-4.0" clone-depth="1" />
+	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="yash" revision="wave" clone-depth="1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="yash" revision="Lineage-FE" clone-depth="1" />
 	
 </manifest>
