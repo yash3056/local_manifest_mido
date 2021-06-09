@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="mido" fetch="https://github.com/android-eleven/" />
+  
+    # thermal
+    <remove-project name="LineageOS/android_hardware_qcom_thermal" />
+    
+</manifest>
