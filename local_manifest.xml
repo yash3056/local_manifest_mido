@@ -9,13 +9,13 @@
 		fetch="https://github.com/Nicklas373" />
 	<remote  name="yash"
 		fetch="https://github.com/yashlearnpython" />	
-	<remote  name="alone"
-		fetch="https://github.com/Hunter-commits" />	
+	<remote  name="jenni"
+		fetch="https://github.com/shashank1436" />	
 	<remote  name="yashlab"
                 fetch="https://github.com/Fussion-Lab" />
 	
  	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="rippa-vendor" clone-depth="1" />
-	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="yash" revision="wave" clone-depth="1" />
+	<project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="jenni" revision="r11" clone-depth="1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="yash" revision="lineage-18.1" clone-depth="1" />
 	
 </manifest>
