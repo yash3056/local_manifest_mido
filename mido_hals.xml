@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="mido" fetch="https://github.com/android-eleven/" />
+    <remote name="mido" fetch="https://github.com/AOSP-mido/" />
     <remote name="anar" fetch="https://github.com/Jabiyeff/" />
     <remote name="smokey" fetch="https://github.com/smokey18/" />
+    <remote name="whyred" fetch="https://github.com/Project404-whyred/" />
     
     # HALS
     <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
-    <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="smokey" revision="eleven-caf-msm8996" />
-    <project path="hardware/qcom/media" name="hardware_qcom_media" groups="pdk,qcom,qcom_media" remote="smokey" revision="eleven-caf-msm8996" />
-    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="smokey" revision="eleven-caf-msm8996" />
-    
+    <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="mido" revision="r11" />
+    <project path="hardware/qcom/media" name="hardware_qcom_media" groups="pdk,qcom,qcom_media" remote="mido" revision="r11" />
+    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="mido" revision="r11" />
+   # sepolicy
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="whyred" revision="rippa" />
+
 </manifest>

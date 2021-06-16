@@ -13,8 +13,8 @@
 		fetch="https://github.com/shashank1436" />	
 	<remote  name="clang"
                 fetch="https://github.com/kdrag0n" />
-	
- 	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="rippa-vendor" clone-depth="1" />
+
+ 	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="rippa-vendor-old" clone-depth="1" />
 	<project path="device/xiaomi/mido-kernel" name="android_device_xiaomi_mido-kernel" remote="yash" revision="main" clone-depth="1" />
 	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="yash" revision="wave" clone-depth="1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="yash" revision="lineage-18.1" clone-depth="1" />
