@@ -12,9 +12,6 @@
 	<remote  name="lab"
 		fetch="https://github.com/Fussion-Lab" />	
 	
- 	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="yash" revision="pa-ruby" clone-depth="1" />
-	<project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="lab" revision="ruby" clone-depth="1" />
-	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="yash" revision="pa-ruby" clone-depth="1" />
 	<remove-project name="AOSPA/android_vendor_pa" />
 	  <project path="vendor/pa" name="android_vendor_pa" remote="yash" revision="ruby" clone-depth="1" >
 	  <linkfile src="build.sh" dest="rom-build.sh" />
