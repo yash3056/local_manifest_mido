@@ -17,5 +17,6 @@
 	  <linkfile src="build.sh" dest="rom-build.sh" />
 	</project>
 	<remove-project name="AOSPA/android_device_qcom_sepolicy" />
+	<remove-project name="device/generic/opengl-transport" />
 	
 </manifest>
