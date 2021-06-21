@@ -16,5 +16,6 @@
 	  <project path="vendor/pa" name="android_vendor_pa" remote="yash" revision="ruby" clone-depth="1" >
 	  <linkfile src="build.sh" dest="rom-build.sh" />
 	</project>
+	<remove-project name="AOSPA/android_device_qcom_sepolicy" />
 	
 </manifest>
