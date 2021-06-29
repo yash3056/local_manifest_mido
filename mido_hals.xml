@@ -4,12 +4,13 @@
     <remote name="anar" fetch="https://github.com/Jabiyeff/" />
     <remote name="smokey" fetch="https://github.com/smokey18/" />
     <remote name="whyred" fetch="https://github.com/Project404-whyred/" />
+    <remote name="jennifer" fetch="https://github.com/shashank1436/" />
     
     # HALS
     <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="mido" revision="r11" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="pdk,qcom,qcom_media" remote="mido" revision="r11" />
-    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="mido" revision="r11" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="jennifer" revision="r11404" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="pdk,qcom,qcom_media" remote="jennifer" revision="r11404" />
+    <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="jennifer" revision="r11404" />
    # sepolicy
     <remove-project name="device/qcom/sepolicy_vndr" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="whyred" revision="rippa" />
